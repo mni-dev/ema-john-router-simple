@@ -28,6 +28,7 @@ const SignUp = () => {
     if(user){
         navigate('/home');
     }
+    
     const handleCreateUser = event => {
         event.preventDefault();
         if(password !==confirmPW){
